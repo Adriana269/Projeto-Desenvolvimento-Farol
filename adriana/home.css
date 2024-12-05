@@ -1,0 +1,39 @@
+#home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav-list{
+    display:flex;
+    list-style:none;
+    gap:48px;
+}
+
+.nav-item a {
+    text-decoration:none;
+    color: #1d1d1d;
+    font-weight: 600;
+}
+.nav-item.active a {
+    color:#1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+#moobile-btn{
+    display:none;
+}
+
+@media screen and (max-width:1170px){
+    #nav_list,
+}
